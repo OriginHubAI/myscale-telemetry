@@ -6,7 +6,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 setup(
-    name="myscale-telemetry",
+    name="originhub-myscale-telemetry",
     version="0.3.3",
     description="Open-source observability for your LLM application.",
     long_description=long_description,
