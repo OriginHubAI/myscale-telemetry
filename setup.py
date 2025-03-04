@@ -7,20 +7,20 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="myscale-telemetry",
-    version="0.3.2",
+    version="0.3.3",
     description="Open-source observability for your LLM application.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="Xu Jing",
-    author_email="xuj@myscale.com",
-    url="https://github.com/myscale/myscale-telemetry",
+    author="Hao Lou",
+    author_email="louh@yuanshu.com",
+    url="https://github.com/OriginHubAI/myscale-telemetry",
     packages=find_packages(),
     install_requires=[
         "backoff>=2.2.1",
-        "langchain~=0.3.0",
-        "langchain-community~=0.3.0",
+        "langchain~=0.3.19",
+        "langchain-community~=0.3.18",
         "clickhouse-connect>=0.7",
-        "langchain-openai~=0.2.0",
+        "langchain-openai~=0.3.7",
         "tiktoken>=0.7.0",
     ],
     classifiers=[
