@@ -12,7 +12,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Hao Lou",
-    author_email="louh@yuanshu.com",
+    author_email="louh@originhub.tech",
     url="https://github.com/OriginHubAI/myscale-telemetry",
     packages=find_packages(),
     install_requires=[
